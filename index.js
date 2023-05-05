@@ -16,11 +16,11 @@ function displayCountryTimezone(event) {
   if (
     event.target.value === "portugal"
 
-  ) { alert(portugalTime)
+  ) { alert(`It's ${portugalTime}in Lisbon, Portugal`)
     
-  }else if (event.target.value === "usa-honolulu"){alert(usaHonoluluTime)}
+  }else if (event.target.value === "usa-honolulu"){alert(`It's ${usaHonoluluTime}in Honolulu - Hawaii`)}
    else if (event.target.value === "south-korea"){
-    alert(southKoreaTime);
+    alert(`It's ${southKoreaTime}in Seoul, South Korea`);
    }
     
   
